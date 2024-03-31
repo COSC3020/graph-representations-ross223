@@ -26,4 +26,4 @@ the algorithm is made up of 2 loops so the analysis can be made using loop logic
 The first loop runs i times where i is the length of the column of the matrix, and
 the second loop runs j times where j is the length of the row of the matrix. The 
 rows and columns represent the vetecies in the graph, so since we iterate over
-each row and column once, our runtime is $i*j$ or $v*v$.
+each row and column once, our runtime is $i*j$ or $v^2$.

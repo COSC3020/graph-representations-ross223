@@ -27,3 +27,7 @@ The first loop runs i times where i is the length of the column of the matrix, a
 the second loop runs j times where j is the length of the row of the matrix. The 
 rows and columns represent the vertices in the graph, so since we iterate over
 each row and column once, our runtime is $i*j$ or $v^2$.
+
+## Sources
+
+Howardthegr8one was helpful to view while making this implementation.

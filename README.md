@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/hFs1pb0z)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -19,3 +20,14 @@ most important part. Add your answer to this markdown file.
 
 Implement a function to convert an adjacency list to an adjacency matrix and
 analyze it as above.
+
+This implementation has a runtime complexity of $\Theta (V^2)$. This is because
+the algorithm is made up of 2 loops so the analysis can be made using loop logic.
+The first loop runs i times where i is the length of the column of the matrix, and
+the second loop runs j times where j is the length of the row of the matrix. The 
+rows and columns represent the vertices in the graph, so since we iterate over
+each row and column once, our runtime is $i*j$ or $v^2$.
+
+## Sources
+
+Howardthegr8one was helpful to view while making this implementation.
